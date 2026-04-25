@@ -1,0 +1,7 @@
+uv venv venv
+venv\Scripts\activate
+uv pip list               # To see python version
+uv pip install 
+uv pip list
+
+
