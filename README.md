@@ -27,7 +27,7 @@ A lightweight backend project built using **FastAPI** to perform CRUD (Create, R
 ---
 
 ## 📂 Project Structure
-fastapi-patient-crud/
+fastapi/
 ```bash
 │
 ├── venv
