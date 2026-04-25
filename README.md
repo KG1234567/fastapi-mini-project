@@ -28,12 +28,14 @@ A lightweight backend project built using **FastAPI** to perform CRUD (Create, R
 
 ## 📂 Project Structure
 fastapi-patient-crud/
+```bash
 │
 ├── venv
 ├── main.py # Main FastAPI application
 ├── patients.json # JSON file storing patient data
 └── README.md
 
+```
 
 ---
 
@@ -64,11 +66,12 @@ uvicorn main:app --reload
 ## API Endpoints
 | Method | Endpoint         | Description        |
 | ------ | ---------------- | ------------------ |
-| GET    | `/patients`      | Get all patients   |
-| GET    | `/patients/{id}` | Get patient by ID  |
-| POST   | `/patients`      | Create new patient |
-| PUT    | `/patients/{id}` | Update patient     |
-| DELETE | `/patients/{id}` | Delete patient     |
+| GET    | `/view`      | Get all patients   |
+| GET    | `/patient/{patient_id}` | Get patient by ID  |
+| GET    | `/sort`       | sort by height, weight or bmi |
+| POST   | `/create`      | Create new patient |
+| PUT    | `/update/{patient_id}` | Update patient     |
+| DELETE | `/delete/{patient_id}` | Delete patient     |
 
 
 ## Example Request
